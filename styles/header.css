@@ -1,0 +1,112 @@
+.header {
+    display:flex;
+    height: 90px;
+    justify-content: space-between;
+    border-color: rgb(230, 225, 225);
+    position: fixed;
+    top: 0px;
+    right:0px;
+    left:70px;
+    background-color:hsla(0, 48%, 27%, 0.589);
+    opacity: 0.98;
+    z-index: 10;
+    box-shadow: 1.1vh 3vh 4vh rgba(0, 0, 0, 0.7);
+  }
+  .left_section {
+    width:150px;
+    align-items: center;
+    display:flex;
+    background-color: rgb(85, 24, 24);
+  }
+
+  .logo {
+    height: 30px;
+    opacity:1;
+
+  }
+  .middle_section {
+    background-color: rgb(92, 56, 56);
+    flex:1;
+    display:flex;
+    align-items: center;
+    max-width: 650px;
+    min-width:100px;
+  }
+
+  .right_section {
+    background-color: rgb(71, 48, 13);
+    width:409px;
+      display:flex;
+      justify-content: right;
+      align-items:center;
+      flex-shrink: 0;
+  }
+  .profile_field {
+    float:right;
+    width:180px;
+    height:60px;
+    border-radius: 15px;
+    border-color: rgb(77, 77, 77);
+    background-color: rgb(39, 39, 39);
+    opacity:0.8;
+    transition:0.3s;
+
+
+    margin-right: 7px;
+    margin-top: 0px;
+    z-index: 1;
+    
+  }
+  .profile_field:hover {
+    border-color: black;
+    opacity: 0.9;
+    background-color: rgb(85, 84, 84);
+    box-shadow: 10px 10px 20px rgba(73, 72, 72, 0.8);
+    align-content: center;
+    color:rgb(45, 46, 7);
+}
+
+
+
+
+
+
+
+
+
+  .sidebar {
+    background-color:rgb(44, 43, 43);
+    z-index:10;
+    position:fixed;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    width:70px;
+
+    display:flex;
+      flex-direction: column;
+      justify-content:left ;
+   
+
+    
+  }
+  .sidebar_top {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+  }
+  .menu_icon {
+    height: 40px;
+    margin-left:24px;
+    margin-right: 19px;
+    margin-bottom:30px;
+    margin-top:11px;
+  }
+  .sidebar_middle {
+
+  }
+  .sidebar_bottom {
+
+  }

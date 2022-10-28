@@ -1,0 +1,24 @@
+
+.list_header {
+    box-shadow: 10px 10px 10px rgba(14, 13, 13, 0.7);
+    box-shadow: 5px 5px 30px rgba(20, 19, 19, 0.7);
+    font-size: xx-large;
+    color: greenyellow;
+    background-color: rgb(34, 33, 33);
+    max-width: fit-content;
+    margin-left: 10px;
+    padding-left: 50px;
+    margin-top: -13px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: dotted;
+}
+
+.list {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+}
